@@ -7,6 +7,7 @@
 
 #define FIREBASE_HOST "your-project.firebaseio.com"
 #define FIREBASE_AUTH "your-secret-key"
+
 #define DHTPIN 4
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
