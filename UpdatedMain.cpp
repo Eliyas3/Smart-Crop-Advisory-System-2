@@ -98,7 +98,7 @@ if (soil > 3200)
 Serial.println("Advice: Irrigate Crop");
 
 if (rain < 1500)
-Serial.println("Advice: Rain Expected");
+Seral.println("Advice: Rain Expected");
 
 if (light < 1000)
 Serial.println("Advice: Low Sunlight");
