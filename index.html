@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Crop Advisory System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>Smart Crop Advisory System</h1>
+
+<div class="card">
+<h2>Live Sensor Data</h2>
+<p>Temperature: <span id="temp">--</span> °C</p>
+<p>Humidity: <span id="hum">--</span> %</p>
+<p>Soil Moisture: <span id="soil">--</span></p>
+<p>Rain Level: <span id="rain">--</span></p>
+<p>Light Level: <span id="light">--</span></p>
+</div>
+
+<div class="card">
+<h2>Crop Advisory</h2>
+<p id="advice">Waiting for data...</p>
+</div>
+
+<button onclick="refreshData()">Refresh Data</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
